@@ -1,6 +1,5 @@
 {
   "name": "sushant-sharma-portfolio-project",
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "loadash": "^1.0.0"
+    "loadash": "^1.0.0",
+    "uglify": "^0.1.5"
   }
 }
