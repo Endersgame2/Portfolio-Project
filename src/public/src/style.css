@@ -153,23 +153,6 @@ p {
     text-align: center;  
   }
 
-  /* .content{
-    height: 400px;
-    width: 750px;
-    overflow: hidden;
-  }
-
-  .content .images{
-    height: 100%;
-    width: 100%;
-  }
-
-  .images img{
-    height: 100%;
-    width: 100%;
-    ;
-  } */
-
   .slider{
     margin: 50px auto;
     width:50%;
@@ -177,13 +160,14 @@ p {
 
   .img-box img{
     width: 100%;
+    padding-top: 20px;
   }
 
   .btn{
     border:none;
     outline:none;
-    background:grey;
-    padding:10px 30px;
+    background:light grey;
+    padding:10px 90px;
     font-size: 20px;
     color: grey;
     cursor: pointer;
@@ -192,4 +176,8 @@ p {
 
   .btn:hover{
     background-color: #191919;
+  }
+
+  .img-box:hover{
+    opacity: 0.3px;
   }
