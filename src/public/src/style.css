@@ -75,3 +75,20 @@ body{
   object-fit: cover;
   opacity: 0.5;
 }
+
+.aboutheader {
+  color: white;
+  font-size: 60px;
+  text-transform:capitalize;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  padding:10px;
+  color: white;
+  font-size: 20px;
+  text-transform:capitalize;
+  font-weight: 50;
+  text-align: left;
+}
