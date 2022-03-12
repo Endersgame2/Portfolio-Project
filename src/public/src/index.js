@@ -1,1 +1,1 @@
-console.log("Hello World")
+var slider_img = document.querySelector('.slider')

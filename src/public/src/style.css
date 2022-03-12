@@ -113,7 +113,7 @@ p {
   }
 
   .field {
-    color: aliceblue;
+    color: black;
     width: 100%;
     padding: 0.5em 1em;
     outline: none;
@@ -145,3 +145,51 @@ p {
   align-content: center;
   }
   
+  .projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;  
+  }
+
+  /* .content{
+    height: 400px;
+    width: 750px;
+    overflow: hidden;
+  }
+
+  .content .images{
+    height: 100%;
+    width: 100%;
+  }
+
+  .images img{
+    height: 100%;
+    width: 100%;
+    ;
+  } */
+
+  .slider{
+    margin: 50px auto;
+    width:50%;
+  }
+
+  .img-box img{
+    width: 100%;
+  }
+
+  .btn{
+    border:none;
+    outline:none;
+    background:grey;
+    padding:10px 30px;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+
+  .btn:hover{
+    background-color: #191919;
+  }
