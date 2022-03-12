@@ -48,7 +48,6 @@ body{
   opacity:1;
 }
 
-/* main */
 .home-section{
   width: 90%;
   height:100vh;
@@ -92,3 +91,42 @@ p {
   font-weight: 50;
   text-align: left;
 }
+
+.conatiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 8s00px;
+}
+
+  .contact-box{
+    max-width: 850px;
+    display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  .field {
+    width: 100%;
+    padding: 0.5em 1em;
+    outline: none;
+    background-color: rgba(230,230,230,0.6);
+    font-size: 1.2em;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+
+  .contact-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  opacity: 1;
+  }
