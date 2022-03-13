@@ -1,17 +1,29 @@
-// var slider_img = document.querySelector('.slider-img');
-// var images =['MittMatch.png', 'Catimage.png', 'Color-game.png'];
-// var i =0;
-// function prev(){
-//   if(i <=0) i = images.length;
-//   i--;
-//   return setImg();
+// var i = 0;
+// var imaages =[];
+// var time = 3000;
+
+// // images
+// images[0]='images/Catimage.png';
+// images[1]='images/Color-game.png';
+// images[2]='images/MittMatch.png';
+
+// function changeImg(){
+//   document.slide.src = images[i];
+
+//   if (i< images.length -1){
+// i++;
+//   }else{
+//     i = 0;
+//   }
+
+//   setTimeout("changeImg()",time)
 // }
 
-// function next(){
-//   if(i >=images.length-1) i = -1;
-//   i++;
-//   return setImg();
-// }
+// window.onload =changeImg;
 
-// function setImg(){
-//   return slider_img.setAttribute('src','images/'+images[i]);
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
