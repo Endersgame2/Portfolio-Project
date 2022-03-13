@@ -27,6 +27,14 @@ body{
   background-color: #191919;
 }
 
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav ul {
+  flex:1;
+  text-align: right;
+}
 .link-group{
   list-style: none;
   display: flex;
@@ -234,4 +242,12 @@ p {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+html {
+  filter: invert(100%);
+}
+
+html img {
+  filter: invert(100%);
 }
