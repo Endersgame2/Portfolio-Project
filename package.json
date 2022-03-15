@@ -1,0 +1,20 @@
+{
+  "name": "sushant-sharma-portfolio-project",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "cleancss src/css/*.css -o dist/css/style.css ",
+    "build:js": "mkdirp dist/js && uglifyjs src/js/*/js -o dist/js/main.js",
+    "copy:html": "cp src/*.html dist",
+    "build:all": "npm run build:css && npm run build:js && npm run copy:html"
+  },
+  "author": "Sushant Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "uglify": "^0.1.5"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "mkdirp": "^1.0.4"
+  }
+}
